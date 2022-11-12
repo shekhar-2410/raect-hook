@@ -27,7 +27,12 @@ const DataFetching = () => {
 			<button type="button" onClick={handleClick}>
 				Fetch Data
 			</button>
-			<div>{posts.title}</div>
+			<div>
+				<h3> {posts.title}</h3>
+			</div>
+			<div>
+				<p>{posts.body}</p>
+			</div>
 			{/* <ul>{posts.map((item) => <li key={item.id}>{item.title}</li>)}</ul> */}
 		</div>
 	);

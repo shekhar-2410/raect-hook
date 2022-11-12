@@ -9,6 +9,12 @@ import Hookmouse from './components/useEffectHook/Hookmouse';
 import MouseContainer from './components/useEffectHook/MouseContainer';
 import IntervalHookCounter from './components/useEffectHook/IntervalHookCounter';
 import DataFetching from './components/useEffectHook/DataFetching';
+import CounterOne from './components/useReduceHook/CounterOne';
+import CounterTwo from './components/useReduceHook/CounterTwo';
+import Datafetch from './components/useStatehook/Datafetch';
+import Getdata from './components/useReduceHook/FetchPostdat.js';
+import FocusInput from './components/useRef/FocusInput';
+import Hooktimer from './components/useRef/Hooktimer';
 
 function App() {
 	return (
@@ -19,13 +25,20 @@ function App() {
 			{/* <Counter /> */}
 			{/* <Counter2 /> */}
 			{/* <Counter3 /> */}
-
+			{/* <Datafetch /> */}
 			{/* useEffectHook */}
 			{/* <HookCounter /> */}
 			{/* <Hookmouse /> */}
 			{/* <MouseContainer /> */}
 			{/* <IntervalHookCounter /> */}
-			<DataFetching />
+			{/* <DataFetching /> */}
+			{/* useReducerHook */}
+			{/* <CounterOne /> */}
+			{/* <CounterTwo /> */}
+			<Getdata />
+			{/* inputref */}
+			<FocusInput />
+			<Hooktimer />
 		</div>
 	);
 }
